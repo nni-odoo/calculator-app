@@ -12,3 +12,7 @@ class TestCalculator(unittest.TestCase):
     def test_subtract(self):
         res = self.app.subtract(1, 2)
         self.assertEqual(res, -1)
+
+    def test_multiply(self):
+        res = self.app.multiply(3, 10)
+        self.assertEqual(res, 3)
