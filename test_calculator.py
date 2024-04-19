@@ -9,6 +9,6 @@ class TestCalculator(unittest.TestCase):
         res = self.app.add(1, 2)
         self.assertEqual(res, 3)
 
-    def test_sbutract(self):
+    def test_subtract(self):
         res = self.app.subtract(1, 2)
         self.assertEqual(res, -1)
