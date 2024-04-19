@@ -16,3 +16,7 @@ class TestCalculator(unittest.TestCase):
     def test_multiply(self):
         res = self.app.multiply(3, 10)
         self.assertEqual(res, 3)
+
+    def test_power(self):
+        res = self.app.power(2, 4)
+        self.assertEqual(res, 16)
