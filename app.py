@@ -17,3 +17,7 @@ class CalculatorApp(object):
     def subtract(self, x, y):
         self.history.append(('subtract', x, y))
         return x - y
+
+    def power(self, x, n):
+        self.history.append(('power', x, n))
+        return x**n
